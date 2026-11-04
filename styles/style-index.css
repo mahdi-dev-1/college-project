@@ -1,10 +1,13 @@
 body
 {
+    height: 100vh;
     margin: 0;
     font-size: 28px;
     font-family: vazir;
     background-color: lightgray;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 header
@@ -14,6 +17,7 @@ header
     flex-direction: row;
     justify-content: center;
     border: 4px solid #8F9CD7;
+    border-top: none;
     background-color: #caf0f8;
     border-bottom-left-radius: 75px;
     border-bottom-right-radius: 75px;
@@ -27,7 +31,6 @@ header
 
 main
 {
-    height: 400px;
     display: flex;
     justify-content: center;
 }
@@ -83,4 +86,15 @@ main
 {
     position: absolute;
     bottom: 5px;
+}
+
+footer
+{
+    height: 75px;
+    border: 4px solid #8F9CD7;
+    border-bottom: none;
+    background-color: #caf0f8;
+    border-top-left-radius: 75px;
+    border-top-right-radius: 75px;
+    box-shadow: 2px 2px 15px rgba(95, 119, 226, 0.7);
 }
