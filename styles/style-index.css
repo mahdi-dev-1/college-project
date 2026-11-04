@@ -1,8 +1,9 @@
 body
 {
-    height: 100vh;
     margin: 0;
+    height: 100vh;
     font-size: 28px;
+    font-weight: bold;
     font-family: vazir;
     background-color: lightgray;
     display: flex;
@@ -12,7 +13,7 @@ body
 
 header
 {
-    height: 150px;
+    height: 125px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -52,7 +53,16 @@ main
 {
     height: 80px;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.grd-logo-container span
+{
+    font-size: 18px;
+    color: #dddee0;
 }
 
 .grd-logo
@@ -79,7 +89,8 @@ main
 
 .login-form label
 {
-    color: #03045e;
+    font-size: 18px;
+    color: #dddee0;
 }
 
 .submit-input
@@ -88,13 +99,26 @@ main
     bottom: 5px;
 }
 
+.submit-input:hover
+{
+    background-color: gray;
+    cursor: pointer;
+}
+
 footer
 {
-    height: 75px;
+    height: 50px;
     border: 4px solid #8F9CD7;
     border-bottom: none;
     background-color: #caf0f8;
     border-top-left-radius: 75px;
     border-top-right-radius: 75px;
     box-shadow: 2px 2px 15px rgba(95, 119, 226, 0.7);
+}
+
+footer p
+{
+    font-size: 14px;
+    color: #0077b6;
+    text-align: center;
 }
