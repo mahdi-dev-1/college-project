@@ -1,0 +1,23 @@
+body
+{
+    margin: 0;
+    background-color: lightgray;
+}
+
+header
+{
+    height: 150px;
+    background-color: rgb(151, 214, 235);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 75px;
+    border: 4px solid #8F9CD7;
+    box-shadow: 2px 2px 15px rgba(95, 119, 226, 0.7);
+}
+
+.iau-logo
+{
+    height: 100%;
+}
